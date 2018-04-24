@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_3"
+    >
+
+    <LinearLayout
+        android:alpha="0.9"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_gravity="center_horizontal"
+        android:layout_margin="35dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Course name: "
+            android:gravity="center"
+            android:id="@+id/show_class_name" android:layout_gravity="center_horizontal"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#333333"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Class name:"
+            android:gravity="center"
+            android:id="@+id/show_teacher_name" android:layout_gravity="center_horizontal"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#333333"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Classroom: "
+            android:gravity="center"
+            android:id="@+id/show_place" android:layout_gravity="center_horizontal"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#333333"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Time: \n\n"
+            android:gravity="center"
+            android:id="@+id/show_time" android:layout_gravity="center_horizontal"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F91C20"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="DELETE"
+            android:id="@+id/del_btn"
+           android:layout_gravity="center_horizontal"
+          android:layout_margin="5dp"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#333333"/>
+
+    </LinearLayout>
+
+</LinearLayout>

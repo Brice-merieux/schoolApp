@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    >
+    <ImageButton
+        android:id="@+id/checking"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_checking"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="@string/checking"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        />
+    <ImageButton
+        android:id="@+id/roll_call"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_roll_call"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        />  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/roll_call"
+    android:textColor="#000"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="5dp"
+    android:textSize="20dp"
+    />
+
+</LinearLayout>

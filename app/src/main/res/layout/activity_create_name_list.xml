@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/std_infos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/enter_student_infos"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/std_name"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_shape"
+        android:gravity="center"
+        android:hint="输入学生姓名"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/std_number"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_shape"
+        android:gravity="center"
+        android:hint="@string/student_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/list_name"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_shape"
+        android:gravity="center"
+        android:hint="@string/enter_list_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:layout_marginLeft="60dp"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish"
+            android:layout_marginLeft="100dp"
+           android:layout_marginRight="40dp"
+            android:background="@drawable/shape_rect"
+            />
+    </LinearLayout>
+
+</LinearLayout>
